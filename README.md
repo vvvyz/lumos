@@ -10,6 +10,7 @@ lumos is programming language
 here is a peek
 
 ```lisp
+(typename [T :class Ord])
 (define add
   (fun ([:a T] [:b Int] [-> T])
     (+ a b)))

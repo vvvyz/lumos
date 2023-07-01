@@ -1,0 +1,7 @@
+多态函数
+(define add
+  (fun ([a b] [–> Int]))
+
+多态函数的子函数
+(define add
+ (fun ([:a Int] [:b Int] [–> Int])))
